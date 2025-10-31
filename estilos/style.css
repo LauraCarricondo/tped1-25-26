@@ -188,8 +188,30 @@ footer{
     height: auto;
     max-width: 800px;
 }
+
+.criteriosfinal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f4f4;
+    list-style: none;
+}
+.imagenfinal {
+  height: 30px;
+}
 button{
     background-color: rgb(193, 193, 193);
+    border: 0;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    padding: 20px
+}
+#mas_informacion{
+    color: rgb(54, 107, 242);
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
 }
 #rrss_final {
   list-style: none;
@@ -204,12 +226,6 @@ button{
   height: 30px;
   border-radius: 50%;
   object-fit: cover;
-}
-
-#mas_informacion{
-    color: rgb(48, 96, 218);
-    font-weight: 900;
-    text-align: right;
 }
 #ver_mas {
     list-style: none;
