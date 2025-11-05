@@ -33,8 +33,11 @@ img {
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
     margin: 8px;
     filter: saturate(0);
+    
 }
-
+a{
+    text-decoration: none;
+}
 
 a:hover img {
     filter: saturate(1);
