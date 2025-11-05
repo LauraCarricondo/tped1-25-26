@@ -1,0 +1,257 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: none;
+}
+#barra{
+    background-color: #123e59;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 14px;
+    height: 60px;
+    width: auto;
+    margin: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.textobarra{
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    font-size: 10pt;
+    font-weight: lighter;
+    text-align: center;
+}
+#textobarraderecha{ 
+    text-align: right;
+}
+
+
+#logocompleto{
+    height: 30px;
+    width: auto;
+}
+#logo_telefonica{
+    height: 30px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+#barra p:nth-child{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#textothinkbig {
+    font-weight: lighter;
+    color: rgb(0, 209, 0);
+    
+}
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#img_header{
+    width: 100%;
+    height: auto;
+}
+.contenedor_general{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.subtitulo{
+    color: #8e8e8e;
+    font-size: 19pt;
+    line-height: 1.1;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    max-width: 550px; 
+    margin-left: auto;
+    margin-right: auto
+}
+#rrss_inicio img{
+    height: auto;
+    width: 300px;
+    text-align: center;
+}
+h5{
+    color: #8e8e8e;
+    font-size: 19px;
+    font-weight: 900;
+    text-align: center;
+}
+h6{
+    color: #959494;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+h6 a{
+    color: #959494;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration-style: dotted;
+}
+
+main img{
+    display: block;
+    width: 100%;
+    max-width: auto;
+    margin: 40px auto;
+    position: relative;
+    text-align: center;
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60pt;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.1
+
+}
+h3 {
+    color: black;
+
+}
+#parrafo1::first-letter{
+    float: left;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 0.8;
+    margin-top: 4px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ p, ul {
+  margin-left: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 100%;
+  color: rgb(79, 79, 79);
+  text-align: left;
+  font-size: 13pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  line-height: 1.8;
+  margin: 30px;
+
+}
+ul{
+    list-style: none;
+
+}
+li{
+    margin-bottom: 16px;
+
+}
+strong{ 
+    font-weight: 700;
+
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration-style: dotted;
+    font-weight: 900;
+}
+hr{
+    border: none;
+  border-top: 1.2px solid #b7b7b7;
+  margin: 40px;
+  width: 100%;
+}
+.separacion2{
+     border: none;
+  border-top: 1.2px solid #b7b7b7;
+  margin: 40px;
+  width: 100%;
+}
+.separacion3{
+    border: none;
+    border-top: 1.2px solid #000000;
+    margin: 40px;
+    width: 100%;
+}
+footer{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+#fotofinal{
+    height: auto;
+    max-width: 800px;
+}
+
+.criteriosfinal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f4f4;
+    list-style: none;
+}
+.imagenfinal {
+  height: 30px;
+}
+button{
+    background-color: rgb(193, 193, 193);
+    border: 0;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    padding: 20px
+}
+#mas_informacion{
+    color: rgb(54, 107, 242);
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+}
+#rrss_final {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+#rrss_final li img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#ver_mas {
+    list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+#ver_mas li {
+    color: rgb(140, 140, 140);
+    font-size: 12pt;
+    display: flex;
+}
+#ver_mas li:hover {
+  color: #363636;
+}
+#ver_mas li::after {
+  content: "•";
+  margin-left: 8px;
+  color: #bbb;
+
+}
+
+
+
+
+
+

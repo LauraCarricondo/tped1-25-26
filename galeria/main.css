@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(175, 255, 255);
+    height: 80px;
+    width: auto;
+    margin: 0%;
+    padding: 0;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    font-size: 45pt;
+}
+
+.galeria{
+    background-color: rgb(252, 239, 252);
+    display: block;
+    padding: 20px;
+
+}
+
+img {
+    width: 25%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    margin: 8px;
+    filter: saturate(0);
+}
+
+
+a:hover img {
+    filter: saturate(1);
+    transform: scale(1.05);
+    .shadow {filter: drop-shadow(8px 8px 10px rgb(178, 11, 255));}
+}
