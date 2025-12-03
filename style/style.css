@@ -19,3 +19,7 @@ a{
 a:hover {
     color: rgb(0, 234, 255);
 }
+ul{
+    display: flex;
+    justify-content: space-around;
+}
