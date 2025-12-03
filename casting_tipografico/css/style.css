@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.titulo{
+    text-align: center;
+    margin: 18px;
+}
+h1{
+    font-size: 50pt;
+    text-align: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40;
+  font-size: 25pt; 
+  text-align: center;
+}
+.catalogo{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+}
+.div{
+    width: 25%;
+    height: auto;
+    margin: 30px;
+    display: inline-block;
+}
+#playfair_display{
+    font-family: "Inconsolata", monospace;
+    font-size: 20pt;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+#playwrite_norge{
+    font-family: "Playwrite NO", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 20pt;
+}
+#bebas_neue{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+}
+#playwrite_new_zealand_guides{
+      font-family: "Playwrite NZ Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+
+}
+#jost{
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 20pt;
+}
+#embed_code{
+    font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+}
+#kablammo{
+      font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"MORF" 0;
+    font-size: 20pt;
+}
+#audiowide_static{
+      font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+}
+#unifrakturMaguntia{
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+}
